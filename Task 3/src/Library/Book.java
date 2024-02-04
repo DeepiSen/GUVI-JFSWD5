@@ -1,6 +1,6 @@
 package Library;
 
-public class Book {
+public class Book { //class book to hold attributs
     int BookID;
     String Title,Author;
     Boolean IsAvailable;
@@ -8,17 +8,17 @@ public class Book {
 
 
 
-    public Book(int BookID, String Author,String Title){
+    public Book(int BookID, String Author,String Title){ //Parameterised Constructor for initialising attributes
       this.BookID = BookID;
       this.Author = Author;
       this.Title = Title;
       this.IsAvailable = true;
     }
 
-    public Book() {
+    public Book() { //default constructor
 
     }
-
+//getter and setter for the different attributes of the class
     public int getBookID() {
         return BookID;
     }
@@ -50,7 +50,7 @@ public class Book {
         IsAvailable = available;
     }
 
-    public String toString() {
+    public String toString() { //to string override for get book details in meaningful way
         return "Book ID: " + BookID + ", Title: " + Title + ", Author: " + Author + ", Available: " + IsAvailable;
     }
 

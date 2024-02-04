@@ -6,11 +6,11 @@ public class LibraryManagement {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Enter the maximum number of books in Library");
+        System.out.println("Enter the maximum number of books in Library"); //getting max number books value
         int maxSize = scanner.nextInt();
         Library library = new Library(maxSize);
 
-        while(true){
+        while(true){ //creating menu for the library operation
             System.out.println("Menu for the Library");
             System.out.println("1. Add the Book");
             System.out.println("2. Remove the Book");
@@ -19,11 +19,11 @@ public class LibraryManagement {
             System.out.println("5.Exit");
 
 
-            System.out.println("Enter your Choice");
+            System.out.println("Enter your Choice"); //getting user choice
             int Choice = scanner.nextInt();
 
-            switch(Choice){
-                case 1:
+            switch(Choice){ // operation done based on the user choice
+                case 1: //add book
                     System.out.println("Enter the bookId");
                     int bookId = scanner.nextInt();
                     scanner.nextLine();
@@ -34,24 +34,23 @@ public class LibraryManagement {
                     Book newBook = new Book(bookId,Author,Title);
                     library.addBook(newBook);
                     break;
-                case 2:
+                case 2: // remove book
                     System.out.println("Enter the bookId");
                     bookId = scanner.nextInt();
                     library.removeBook(bookId);
                     break;
-                case 3:
+                case 3://search a book
                     System.out.println("Enter the bookId");
                     bookId = scanner.nextInt();
                     library.searchBook(bookId);
                     break;
-                case 4:
+                case 4: //display the book
                     System.out.println(library);
-                   // library.display();
                     break;
-                case 5:
+                case 5: //exiting from the menu
                     System.out.println("Exiting from Library");
                     System.exit(0);
-                default:
+                default://default case for error handling
                     System.out.println("Invalid Option please give valid input");
                     break;
             }

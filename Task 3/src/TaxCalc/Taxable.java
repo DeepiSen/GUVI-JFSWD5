@@ -1,10 +1,10 @@
 package TaxCalc;
 
 public interface Taxable {
-    double salesTax = 7/100;
+    float salesTax = (float) 7 /100;
     double incomeTax = 10.5/100;
 
-    public abstract double calTax();
+    public abstract double calTax();//abstract method
 
 
 }

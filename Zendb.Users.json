@@ -1,0 +1,136 @@
+[{
+  "_id": {
+    "$oid": "65edf217e916e1347192f86a"
+  },
+  "Stud_id": 1,
+  "Stud_name": "John",
+  "Mentor": "Stalin"
+},
+{
+  "_id": {
+    "$oid": "65edf217e916e1347192f86b"
+  },
+  "Stud_id": 2,
+  "Stud_name": "Joe",
+  "Mentor": "Stephen"
+},
+{
+  "_id": {
+    "$oid": "65edf217e916e1347192f86c"
+  },
+  "Stud_id": 3,
+  "Stud_name": "Josh",
+  "Mentor": "Stalin"
+},
+{
+  "_id": {
+    "$oid": "65edf217e916e1347192f86d"
+  },
+  "Stud_id": 4,
+  "Stud_name": "Adhi",
+  "Mentor": "Stalin"
+},
+{
+  "_id": {
+    "$oid": "65edf217e916e1347192f86e"
+  },
+  "Stud_id": 5,
+  "Stud_name": "Anbu",
+  "Mentor": "Stalin"
+},
+{
+  "_id": {
+    "$oid": "65edf217e916e1347192f86f"
+  },
+  "Stud_id": 6,
+  "Stud_name": "Anand",
+  "Mentor": "Stalin"
+},
+{
+  "_id": {
+    "$oid": "65edf217e916e1347192f870"
+  },
+  "Stud_id": 7,
+  "Stud_name": "Bala",
+  "Mentor": "Stalin"
+},
+{
+  "_id": {
+    "$oid": "65edf217e916e1347192f871"
+  },
+  "Stud_id": 8,
+  "Stud_name": "Cathrine",
+  "Mentor": "Stalin"
+},
+{
+  "_id": {
+    "$oid": "65edf217e916e1347192f872"
+  },
+  "Stud_id": 9,
+  "Stud_name": "Deepa",
+  "Mentor": "Stalin"
+},
+{
+  "_id": {
+    "$oid": "65edf217e916e1347192f873"
+  },
+  "Stud_id": 10,
+  "Stud_name": "Ezhil",
+  "Mentor": "Stalin"
+},
+{
+  "_id": {
+    "$oid": "65edf217e916e1347192f874"
+  },
+  "Stud_id": 11,
+  "Stud_name": "Fahad",
+  "Mentor": "Stalin"
+},
+{
+  "_id": {
+    "$oid": "65edf217e916e1347192f875"
+  },
+  "Stud_id": 12,
+  "Stud_name": "Henry",
+  "Mentor": "Stalin"
+},
+{
+  "_id": {
+    "$oid": "65edf217e916e1347192f876"
+  },
+  "Stud_id": 13,
+  "Stud_name": "Ishwarya",
+  "Mentor": "Stalin"
+},
+{
+  "_id": {
+    "$oid": "65edf217e916e1347192f877"
+  },
+  "Stud_id": 14,
+  "Stud_name": "Kalyan",
+  "Mentor": "Stalin"
+},
+{
+  "_id": {
+    "$oid": "65edf217e916e1347192f878"
+  },
+  "Stud_id": 15,
+  "Stud_name": "Lal",
+  "Mentor": "Stalin"
+},
+{
+  "_id": {
+    "$oid": "65edf217e916e1347192f879"
+  },
+  "Stud_id": 16,
+  "Stud_name": "Mahi",
+  "Mentor": "Stalin"
+},
+{
+  "_id": {
+    "$oid": "65edf217e916e1347192f87a"
+  },
+  "Stud_id": 17,
+  "Stud_name": "Noorjagan",
+  "Mentor": "Stalin"
+}]
